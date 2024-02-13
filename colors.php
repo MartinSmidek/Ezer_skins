@@ -87,6 +87,32 @@ case 'ch': // --------------------------------------------------------- ch: barv
   // úpravy ezer.css.php
   $w_right= 750;        // šířka panel.right
   break;
+case 'tt': // --------------------------------------------------------- ck: barvy webu www.hospic.cz
+  $path= "../../skins/$skin";                     // cesta k background-image
+  $bila= '#ffffff'; $cerna= '#000000';            // základní barvy
+  // barvy specifické pro styl
+  $nasedla= '#e6e6e6'; $seda= '#4d4d4d';
+  $cervena= '#a90533'; $oranzova= '#ef7f13';  $lososova= '#F0E2C2';
+  $zelena= '#892c31'; $nazelenala= '#a1565a'; $zelenkava= '#E2C0C2'; $zelenoucka= '#FDEFF1';
+  // prvky - musí být v global
+  $c= $cerna; $b= $nasedla; $ab= $bila;
+  $c_appl= $zelena;
+  $c_menu= $bila; $b_menu= $seda;
+  $c_main= $zelena; $b_main= $seda;
+  $c_group= $bila; $b_group= $nazelenala; $s_group= $seda;
+  $c_item= $seda; $b_item= $zelenkava; $bd_item= '#ddd'; $fb_item= $oranzova; $fc_item= $bila;
+    $s_item= $s2_item= $seda;
+//   $b_brow= '#ccc'; $b2_brow= $lososova; $b3_brow= $bila; $b4_brow= $zelenkava;
+  $b_brow= '#ccc'; $b2_brow= $bila; $b3_brow= $bila; $b4_brow= $nasedla;
+    $b5_brow= $nasedla; $b6_brow= $nasedla; $b7_brow= $zelenkava; $b8_brow= $zelenoucka;
+    $c_brow= $seda; $s1_brow= $nazelenala; $s2_brow= $cervena;
+  $c_kuk= $zelena; $c2_kuk= $bila; $c3_kuk= $cerna; $b_kuk= $oranzova; $s_kuk= $oranzova;
+  $b_warn= '#adff2f'; $c_warn= '#000000';
+  $b_doc_modul= $oranzova; $b_doc_menu= $zelena; $b_doc_form= $zelena;
+  $b_parm= $oranzova; $b_part= $zelenkava; $b_work= $zelenkava;
+  // úpravy ezer.css.php
+  $w_right= 750;        // šířka panel.right
+  break;
 case 'default': // ---------------------------------------------------- default barvy podle Office2007
   $path= "./skins/default";                       // cesta k background-image
   $bila= '#ffffff'; $cerna= '#000000'; $seda= '#4d4d4d'; $zelena= '#2c8931'; // základní barvy
@@ -99,7 +125,7 @@ case 'default': // ---------------------------------------------------- default 
   $c_item= '#333'; $b_item= '#cde'; $bd_item= '#ccc'; $fb_item= '#3e4043'; $fc_item= '#faec8f';
     $s_item= '#9ab'; $s2_item= '#303234';
   $b_brow= '#ccc'; $b2_brow= '#f2f8ff'; $b3_brow= '#E5E5E6'; $b4_brow= '#d1e4ff';
-    $b5_brow= '#f0f0f0'; $b6_brow= '#f2f8ff'; $b7_brow= '#d1e4ff'; $b8_brow= '#df5f9ff';
+    $b5_brow= '#f0f0f0'; $b6_brow= '#f2f8ff'; $b7_brow= '#d1e4ff'; $b8_brow= '#effdf1';
     $c_brow= '#777'; $s1_brow= '#6593cf'; $s2_brow= '#d30';
   $c_kuk= 'navy'; $c2_kuk= $c_kuk; $b_kuk= '#fb6'; $s_kuk= '#FBC84F';
   $b_warn= $s_kuk; $c_warn= '#000000';
